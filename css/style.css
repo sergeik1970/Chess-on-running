@@ -1,0 +1,220 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(42, 42, 42, 0.9);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  filter: drop-shadow(1px 1px 10px);
+}
+
+header .menu {
+  width: 2rem;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+header .menu path {
+  fill: white;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: rgba(42, 42, 42, 0.99);
+  height: 100vh;
+  width: 50%;
+  /* Сделать width: 100%; */
+  z-index: 999;
+  text-transform: uppercase;
+  transform: translateX(100%);
+  transition: transform 0.5s ease-in-out;
+}
+
+.open-nav {
+  transform: translate(0%);
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 100px;
+}
+
+nav ul a {
+  color: white;
+  display: block;
+  padding: 0.75rem 2rem;
+  text-decoration: none;
+}
+
+nav ul a:hover {
+  background: rgb(69, 69, 69);
+}
+
+nav .close {
+  margin: 2rem;
+  width: 40px;
+}
+
+nav .close path {
+  fill: white;
+}
+
+.item {
+  background-size: cover;
+  color: white;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  text-shadow: 2px 5px 10px black;
+}
+
+.item-1 {
+  background-image: url(../images/picture-1.png); 
+  /* Как разместить изображение посередине? */
+  /* Изменить формат на jpg */
+}
+
+.item-2 {
+  background-image: url(../images/picture-2.jpg);
+}
+
+.item-3 {
+  background-image: url(../images/picture-3.jpg);
+}
+
+.item-4 {
+  background-image: url(../images/picture-4.jpg);
+}
+
+.item-club-1 {
+  background-image: url(../images/picture-4.jpg);
+}
+
+.item-club-2 {
+  background-image: url(../images/picture-club-2.jpg);
+}
+
+.item-club-3 {
+  background-image: url(../images/picture-club-3.jpg);
+}
+
+.item-club-4 {
+  background-image: url(../images/picture-3.jpg);
+}
+
+.item-competitions-in-Kostroma-1 {
+  background-image: url(../images/picture-3.jpg);
+}
+
+.item-competitions-in-Kostroma-2 {
+  background-image: url(../images/picture-competitions-in-Kostroma-1.jpg);
+}
+
+.item-competitions-in-Kostroma-3 {
+  background-image: url(../images/picture-competitions-in-Kostroma-2.jpg);
+}
+
+.item-competitions-in-Kostroma-4 {
+  background-image: url(../images/picture-competitions-in-Kostroma-3.jpg);
+}
+
+.item-competitions-in-Kostroma-5 {
+  background-image: url(../images/picture-competitions-in-Kostroma-4.jpg);
+}
+
+.item-text {
+  text-align: center;
+}
+
+.item a {
+  color: rgb(125, 179, 255);
+  text-decoration: none;
+}
+
+.item h1 {
+  font-size: 40px;
+  margin: 5px;
+}
+
+.item h2 {
+  font-size: 22px;
+  font-weight: lighter;
+  margin: 0;
+}
+
+footer {
+  background-color: rgb(236, 236, 236);
+  padding: 15px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  /* margin-bottom: 200px;  */
+  /* Убрать margin */
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer h4 {
+  text-decoration: none;
+  color: black;
+  margin-left: 50px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+footer h5 {
+  text-decoration: none;
+  color: rgb(105, 105, 105);
+  margin-left: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+footer p {
+  color: rgb(105, 105, 105);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Добавить полоску */
+}
+
+hr {
+  border: none;
+  border-top: 1px solid rgb(104, 104, 104);
+  border-radius: 4px;
+}
