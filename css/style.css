@@ -180,6 +180,7 @@ footer {
 .footer-columns {
   display: flex;
   justify-content: space-between;
+  padding-right: 20px;
 }
 
 footer a {
@@ -212,11 +213,67 @@ footer p {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* Добавить полоску */
 }
 
 hr {
   border: none;
   border-top: 1px solid rgb(104, 104, 104);
   border-radius: 4px;
+}
+
+.footer-2 {
+  display: block;
+}
+
+.footer-3 {
+  display: none;
+}
+
+.footer-4 {
+  display: none;
+}
+
+.footer-5 {
+  display: none;
+}
+
+.footer-6 {
+  display: none;
+}
+
+@media only screen and (min-width: 850px) {
+
+  .footer-2 {
+    display: none;
+  }
+  
+  .footer-3 {
+    display: block;
+  }
+
+  .footer-4 {
+    display: block;
+  }
+}
+
+@media only screen and (min-width:1050px) {
+  .footer-5 {
+    display: block;
+  }
+
+  nav {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width:1200px) {
+  nav {
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width:1435px) {
+  .footer-6 {
+    display: block;
+  }
 }
