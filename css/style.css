@@ -43,7 +43,9 @@ nav {
   top: 0;
   background: rgba(42, 42, 42, 0.99);
   height: 100vh;
-  width: 50%;
+  width: 100%;
+  /* text-align: center; */
+  align-items: center;
   /* Сделать width: 100%; */
   z-index: 999;
   text-transform: uppercase;
@@ -58,7 +60,7 @@ nav {
 nav ul {
   list-style-type: none;
   padding: 0;
-  margin-top: 100px;
+  margin-top: 5px;
 }
 
 nav ul a {
@@ -66,6 +68,7 @@ nav ul a {
   display: block;
   padding: 0.75rem 2rem;
   text-decoration: none;
+  font-size: 14px;
 }
 
 nav ul a:hover {
@@ -79,6 +82,38 @@ nav .close {
 
 nav .close path {
   fill: white;
+}
+
+.nav-2 {
+  display: none;
+}
+
+.nav-3 {
+  display: none;
+}
+
+.nav-4 {
+  display: none;
+}
+
+.nav-5 {
+  display: none;
+}
+
+.nav-6 {
+  display: none;
+}
+
+.nav-7 {
+  display: none;
+}
+
+.nav-8 {
+  display: none;
+}
+
+.nav-9 {
+  display: none;
 }
 
 .item {
@@ -110,10 +145,12 @@ nav .close path {
 
 .item-4 {
   background-image: url(../images/picture-4.jpg);
+  text-shadow: none;
 }
 
 .item-club-1 {
   background-image: url(../images/picture-4.jpg);
+  text-shadow: none;
 }
 
 .item-club-2 {
@@ -158,12 +195,12 @@ nav .close path {
 }
 
 .item h1 {
-  font-size: 40px;
+  font-size: 35px;
   margin: 5px;
 }
 
 .item h2 {
-  font-size: 22px;
+  font-size: 19px;
   font-weight: lighter;
   margin: 0;
 }
@@ -241,6 +278,47 @@ hr {
   display: none;
 }
 
+@media only screen and (min-width: 400px) {
+
+}
+
+@media only screen and (min-width: 500px) {
+  
+  .nav-2 {
+    display: block;
+  }
+
+  .nav-3 {
+    display: block;
+  }
+
+  .item h1 {
+    font-size: 40px;
+  }
+  
+  .item h2 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+
+  nav {
+    width: 50%;
+  }
+  
+  .nav-4 {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  
+  .nav-5 {
+    display: block;
+  }
+}
+
 @media only screen and (min-width: 850px) {
 
   .footer-2 {
@@ -254,6 +332,33 @@ hr {
   .footer-4 {
     display: block;
   }
+
+  nav ul {
+    margin-top: 40px;
+  }
+  
+  nav ul a {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  
+  .nav-6 {
+    display: block;
+  }
+
+  .item h1 {
+    font-size: 50px;
+  }
+
+  .item h2 {
+    font-size: 30px;
+  }
+
+  .item h4 {
+    font-size: 22px;
+  }
 }
 
 @media only screen and (min-width:1050px) {
@@ -266,14 +371,42 @@ hr {
   }
 }
 
+@media only screen and (min-width: 1100px) {
+  
+  .nav-7 {
+    display: block;
+  }
+}
+
 @media only screen and (min-width:1200px) {
   nav {
     width: 30%;
   }
 }
 
+@media only screen and (min-width:1300px) {
+
+  .nav-8 {
+    display: block;
+  }
+}
+
 @media only screen and (min-width:1435px) {
   .footer-6 {
     display: block;
+  }
+
+  .nav-9 {
+    display: block;
+  }
+}
+
+@media only screen and (min-width:1800px) {
+  nav {
+    width: 1800px;
+    /* ??? */
+  }
+  body {
+    width: 1800px;
   }
 }
