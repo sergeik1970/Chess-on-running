@@ -155,7 +155,7 @@ nav .close path {
 
 .item-club-2 {
   background-image: url(../images/picture-club-2.jpg);
-    text-shadow: 1px 1px 10px black;
+    /* text-shadow: 1px 1px 10px black; */
 }
 
 .item-club-3 {
@@ -185,6 +185,35 @@ nav .close path {
 
 .item-competitions-in-Kostroma-5 {
   background-image: url(../images/picture-competitions-in-Kostroma-4.jpg);
+}
+
+.item-travelling-1 {
+  background-image: url(../images/picture-travelling-1.jpg);
+}
+
+.item-travelling-2 {
+  background-image: url(../images/picture-travelling-2.jpg);
+}
+
+.item-travelling-3 {
+  background-image: url(../images/picture-travelling-3.jpg);
+}
+
+.item-travelling-4 {
+  background-image: url(../images/picture-travelling-4.jpg);
+}
+
+.item-travelling-5 {
+  background-image: url(../images/picture-travelling-6.jpg);
+}
+
+.item-travelling-6 {
+  text-shadow: 1px 1px 10px black;
+  background-image: url(../images/picture-travelling-7.jpg);
+}
+
+.item-travelling-6 h4 {
+  color: rgb(134, 221, 255);
 }
 
 .item-text {
