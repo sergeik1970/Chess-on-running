@@ -5,7 +5,7 @@ html {
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  background-color: rgb(50, 50, 50);
+  /* background-color: rgb(50, 50, 50); */
 }
 
 header {
@@ -216,6 +216,10 @@ nav .close path {
   background-image: url(../images/picture-travelling-7.jpg);
 }
 
+.item-travelling-6 h4 {
+  color: rgb(134, 221, 255);
+}
+
 .item-travelling-7 {
   background-image: url(../images/picture-travelling-8.jpg);
 }
@@ -232,8 +236,8 @@ nav .close path {
   background-image: url(../images/picture-travelling-11.jpg);
 }
 
-.item-travelling-6 h4 {
-  color: rgb(134, 221, 255);
+.item-travelling-school-of-safety-2022-1 {
+  background-image: url(../images/picture-travelling-11.jpg);
 }
 
 .item-text {
@@ -254,6 +258,18 @@ nav .close path {
   font-size: 19px;
   font-weight: lighter;
   margin: 0;
+}
+
+p {
+  background-color: white;
+  margin: 20px;
+}
+
+.gallery img {
+  width: 90%;
+  display: block;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
@@ -301,6 +317,7 @@ footer p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(236, 236, 236);
 }
 
 hr {
