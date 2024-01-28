@@ -203,6 +203,10 @@ nav .close path {
   background-image: url(../images/picture-travelling-4.jpg);
 }
 
+.item-travelling-4 h4 {
+  color: rgb(0, 101, 208);
+}
+
 .item-travelling-5 {
   background-image: url(../images/picture-travelling-6.jpg);
 }
@@ -210,6 +214,22 @@ nav .close path {
 .item-travelling-6 {
   text-shadow: 1px 1px 10px black;
   background-image: url(../images/picture-travelling-7.jpg);
+}
+
+.item-travelling-7 {
+  background-image: url(../images/picture-travelling-8.jpg);
+}
+
+.item-travelling-8 {
+  background-image: url(../images/picture-travelling-9.jpg);
+}
+
+.item-travelling-9 {
+  background-image: url(../images/picture-travelling-10.jpg);
+}
+
+.item-travelling-10 {
+  background-image: url(../images/picture-travelling-11.jpg);
 }
 
 .item-travelling-6 h4 {
