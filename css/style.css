@@ -187,57 +187,57 @@ nav .close path {
   background-image: url(../images/picture-competitions-in-Kostroma-4.jpg);
 }
 
-.item-travelling-1 {
-  background-image: url(../images/picture-travelling-1.jpg);
+.item-traveling-1 {
+  background-image: url(../images/picture-traveling-1.jpg);
 }
 
-.item-travelling-2 {
-  background-image: url(../images/picture-travelling-2.jpg);
+.item-traveling-2 {
+  background-image: url(../images/picture-traveling-2.jpg);
 }
 
-.item-travelling-3 {
-  background-image: url(../images/picture-travelling-3.jpg);
+.item-traveling-3 {
+  background-image: url(../images/picture-traveling-3.jpg);
 }
 
-.item-travelling-4 {
-  background-image: url(../images/picture-travelling-4.jpg);
+.item-traveling-4 {
+  background-image: url(../images/picture-traveling-4.jpg);
 }
 
-.item-travelling-4 h4 {
+.item-traveling-4 h4 {
   color: rgb(0, 101, 208);
 }
 
-.item-travelling-5 {
-  background-image: url(../images/picture-travelling-6.jpg);
+.item-traveling-5 {
+  background-image: url(../images/picture-traveling-6.jpg);
 }
 
-.item-travelling-6 {
+.item-traveling-6 {
   text-shadow: 1px 1px 10px black;
-  background-image: url(../images/picture-travelling-7.jpg);
+  background-image: url(../images/picture-traveling-7.jpg);
 }
 
-.item-travelling-6 h4 {
+.item-traveling-6 h4 {
   color: rgb(134, 221, 255);
 }
 
-.item-travelling-7 {
-  background-image: url(../images/picture-travelling-8.jpg);
+.item-traveling-7 {
+  background-image: url(../images/picture-traveling-8.jpg);
 }
 
-.item-travelling-8 {
-  background-image: url(../images/picture-travelling-9.jpg);
+.item-traveling-8 {
+  background-image: url(../images/picture-traveling-9.jpg);
 }
 
-.item-travelling-9 {
-  background-image: url(../images/picture-travelling-10.jpg);
+.item-traveling-9 {
+  background-image: url(../images/picture-traveling-10.jpg);
 }
 
-.item-travelling-10 {
-  background-image: url(../images/picture-travelling-11.jpg);
+.item-traveling-10 {
+  background-image: url(../images/picture-traveling-11.jpg);
 }
 
-.item-travelling-school-of-safety-2022-1 {
-  background-image: url(../images/picture-travelling-11.jpg);
+.item-traveling-school-of-safety-2022-1 {
+  background-image: url(../images/picture-traveling-11.jpg);
 }
 
 .item-text {
@@ -267,9 +267,11 @@ p {
 
 .gallery img {
   width: 90%;
-  display: block;
+  display: flex;
+  margin: 0 auto;
   justify-content: center;
   align-items: center;
+  margin-top: 10px;
 }
 
 footer {
