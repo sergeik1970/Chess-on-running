@@ -240,6 +240,31 @@ nav .close path {
   background-image: url(../images/picture-traveling-11.jpg);
 }
 
+.item-traveling-makushka-leta-2022-1 {
+  background-image: url(../images/picture-traveling-10.jpg);
+}
+
+.item-traveling-VSR-2022-1 {
+  background-image: url(../images/picture-traveling-9.jpg);
+}
+
+.p-traveling-VSR-2022-1 {
+  text-align: center;
+}
+
+.item-traveling-Moscow-kompas-2023-1 {
+  background-image: url(../images/picture-traveling-7.jpg);
+  text-shadow: 1px 1px 10px black;
+}
+
+.p-traveling-Moscow-kompas-2023-2 {
+  text-align: center;
+}
+
+.item-traveling-slet-orintirovshikov-2023-1 {
+  background-image: url(../images/picture-traveling-6.jpg);
+}
+
 .item-text {
   text-align: center;
 }
