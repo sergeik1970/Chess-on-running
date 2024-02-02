@@ -236,6 +236,20 @@ nav .close path {
   background-image: url(../images/picture-traveling-11.jpg);
 }
 
+/* VSR 2023 */
+
+.item-traveling-VSR-2023-1 {
+  background-image: url(../images/picture-traveling-2.jpg);
+}
+
+.p-traveling-VSR-2023-2 {
+  text-align: center;
+}
+
+.p-traveling-VSR-2023-3 {
+  text-align: center;
+}
+
 /* Makushka Leta 2023 */
 
 .item-traveling-makushka-leta-2023-1 {
@@ -262,7 +276,7 @@ nav .close path {
   /*  */
 }
 
-.element-traveling {
+.element {
   background-color: rgb(243, 243, 243);
   border-radius: 20px;
   margin-left: 10px;
