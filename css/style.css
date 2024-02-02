@@ -130,7 +130,7 @@ nav .close path {
 }
 
 .item-1 {
-  background-image: url(../images/picture-1.jpg); 
+  background-image: url(../images/picture-1.jpg);
   /* Как разместить изображение посередине? */
   /* Изменить формат на jpg */
 }
@@ -155,7 +155,7 @@ nav .close path {
 
 .item-club-2 {
   background-image: url(../images/picture-club-2.jpg);
-    /* text-shadow: 1px 1px 10px black; */
+  /* text-shadow: 1px 1px 10px black; */
 }
 
 .item-club-3 {
@@ -236,21 +236,40 @@ nav .close path {
   background-image: url(../images/picture-traveling-11.jpg);
 }
 
-.item-traveling-school-of-safety-2022-1 {
-  background-image: url(../images/picture-traveling-11.jpg);
+/* School of Safety 2023 */
+
+.item-traveling-school-of-safety-2023-1 {
+  background-image: url(../images/picture-traveling-4.jpg);
+  text-shadow: 1px 1px 10px black;
 }
 
-.item-traveling-makushka-leta-2022-1 {
-  background-image: url(../images/picture-traveling-10.jpg);
+.h4-traveling-school-of-safety-2023 {
+  font-weight: bolder;
+  /* text-align: center; */
+  margin-left: 30px;
+  font-size: 18px;
+  padding-top: 10px;
 }
 
-.item-traveling-VSR-2022-1 {
-  background-image: url(../images/picture-traveling-9.jpg);
+.gallery-traveling-school-of-safety-2023-1 img {
+  width: 33%;
+  /*  */
 }
 
-.p-traveling-VSR-2022-1 {
-  text-align: center;
+.element-traveling {
+  background-color: rgb(243, 243, 243);
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
+
+/* Slet orintirovshikov 2023 */
+
+.item-traveling-slet-orintirovshikov-2023-1 {
+  background-image: url(../images/picture-traveling-6.jpg);
+}
+
+/* Moscow kompas 2023 */
 
 .item-traveling-Moscow-kompas-2023-1 {
   background-image: url(../images/picture-traveling-7.jpg);
@@ -261,8 +280,26 @@ nav .close path {
   text-align: center;
 }
 
-.item-traveling-slet-orintirovshikov-2023-1 {
-  background-image: url(../images/picture-traveling-6.jpg);
+/* VSR 2022 */
+
+.item-traveling-VSR-2022-1 {
+  background-image: url(../images/picture-traveling-9.jpg);
+}
+
+/* Makushka Leta 2022 */
+
+.item-traveling-makushka-leta-2022-1 {
+  background-image: url(../images/picture-traveling-10.jpg);
+}
+
+/* School of Safety 2022 */
+
+.item-traveling-school-of-safety-2022-1 {
+  background-image: url(../images/picture-traveling-11.jpg);
+}
+
+.p-traveling-VSR-2022-1 {
+  text-align: center;
 }
 
 .item-text {
@@ -286,7 +323,7 @@ nav .close path {
 }
 
 p {
-  background-color: white;
+  /* background-color: white; */
   margin: 20px;
 }
 
@@ -298,6 +335,8 @@ p {
   align-items: center;
   margin-top: 10px;
 }
+
+/* Footer */
 
 footer {
   background-color: rgb(236, 236, 236);
@@ -373,12 +412,10 @@ hr {
   display: none;
 }
 
-@media only screen and (min-width: 400px) {
-
-}
+@media only screen and (min-width: 400px) {}
 
 @media only screen and (min-width: 500px) {
-  
+
   .nav-2 {
     display: block;
   }
@@ -390,7 +427,7 @@ hr {
   .item h1 {
     font-size: 40px;
   }
-  
+
   .item h2 {
     font-size: 22px;
   }
@@ -401,14 +438,14 @@ hr {
   nav {
     width: 50%;
   }
-  
+
   .nav-4 {
     display: block;
   }
 }
 
 @media only screen and (min-width: 750px) {
-  
+
   .nav-5 {
     display: block;
   }
@@ -419,7 +456,7 @@ hr {
   .footer-2 {
     display: none;
   }
-  
+
   .footer-3 {
     display: block;
   }
@@ -431,14 +468,14 @@ hr {
   nav ul {
     margin-top: 40px;
   }
-  
+
   nav ul a {
     font-size: 18px;
   }
 }
 
 @media only screen and (min-width: 900px) {
-  
+
   .nav-6 {
     display: block;
   }
@@ -467,7 +504,7 @@ hr {
 }
 
 @media only screen and (min-width: 1100px) {
-  
+
   .nav-7 {
     display: block;
   }
@@ -501,6 +538,7 @@ hr {
     width: 1800px;
     /* ??? */
   }
+
   body {
     width: 1800px;
   }
