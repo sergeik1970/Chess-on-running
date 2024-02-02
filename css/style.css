@@ -236,6 +236,15 @@ nav .close path {
   background-image: url(../images/picture-traveling-11.jpg);
 }
 
+.item-traveling-11 {
+  background-image: url(../images/picture-traveling-12.jpg);
+  text-shadow: 1px 1px 10px black;
+}
+
+.item-traveling-12 {
+  background-image: url(../images/picture-traveling-13.jpg);
+}
+
 /* VSR 2023 */
 
 .item-traveling-VSR-2023-1 {
@@ -300,10 +309,24 @@ nav .close path {
   text-align: center;
 }
 
+/* Championship of Yaroslavl 2023 */
+
+.item-traveling-championship-of-Yaroslavl-2023-1 {
+  background-image: url(../images/picture-traveling-13.jpg);
+}
+
+.p-traveling-championship-of-Yaroslavl-2023-2 {
+  text-align: center;
+}
+
 /* VSR 2022 */
 
 .item-traveling-VSR-2022-1 {
   background-image: url(../images/picture-traveling-9.jpg);
+}
+
+.p-traveling-VSR-2022-1 {
+  text-align: center;
 }
 
 /* Makushka Leta 2022 */
@@ -318,7 +341,14 @@ nav .close path {
   background-image: url(../images/picture-traveling-11.jpg);
 }
 
-.p-traveling-VSR-2022-1 {
+/* Championship of Yaroslavl 2022 */
+
+.item-traveling-championship-of-Yaroslavl-2022-1 {
+  background-image: url(../images/picture-traveling-12.jpg);
+  text-shadow: 1px 1px 10px black;
+}
+
+.p-traveling-championship-of-Yaroslavl-2022-2 {
   text-align: center;
 }
 
