@@ -187,6 +187,8 @@ nav .close path {
   background-image: url(../images/picture-competitions-in-Kostroma-4.jpg);
 }
 
+/* Traveling */
+
 .item-traveling-1 {
   background-image: url(../images/picture-traveling-1.jpg);
 }
@@ -243,6 +245,23 @@ nav .close path {
 
 .item-traveling-12 {
   background-image: url(../images/picture-traveling-13.jpg);
+}
+
+.item-traveling-13 {
+  background-image: url(../images/picture-traveling-14.jpg);
+}
+
+.item-traveling-13 h4 {
+  color: rgb(134, 221, 255);
+}
+
+.item-traveling-14 {
+  background-image: url(../images/picture-traveling-17.jpg);
+  text-shadow: 1px 1px 10px black;
+}
+
+.item-traveling-15 {
+  background-image: url(../images/picture-traveling-19.jpg);
 }
 
 /* VSR 2023 */
@@ -319,6 +338,16 @@ nav .close path {
   text-align: center;
 }
 
+/* Luzhniki 2022 */
+
+.item-traveling-luzhniki-2022-1 {
+  background-image: url(../images/picture-traveling-19.jpg);
+}
+
+.p-traveling-luzhniki-2022-1 {
+  text-align: center;
+}
+
 /* VSR 2022 */
 
 .item-traveling-VSR-2022-1 {
@@ -327,6 +356,13 @@ nav .close path {
 
 .p-traveling-VSR-2022-1 {
   text-align: center;
+}
+
+/* Kotorosl 2022 */
+
+.item-traveling-Yaroslavl-Kotorosl-1 {
+  background-image: url(../images/picture-traveling-17.jpg);
+  text-shadow: 1px 1px 10px black;
 }
 
 /* Makushka Leta 2022 */
@@ -349,6 +385,16 @@ nav .close path {
 }
 
 .p-traveling-championship-of-Yaroslavl-2022-2 {
+  text-align: center;
+}
+
+/* Belkino 2022 */
+
+.item-traveling-Belkino-2022-1 {
+  background-image: url(../images/picture-traveling-14.jpg);
+}
+
+.p-traveling-Belkino-2022-1 {
   text-align: center;
 }
 
