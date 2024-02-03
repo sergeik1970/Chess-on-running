@@ -190,7 +190,7 @@ nav .close path {
 /* Traveling */
 
 .item-traveling-1 {
-  background-image: url(../images/picture-traveling-1.jpg);
+  background-image: url(../images/picture-2.jpg);
 }
 
 .item-traveling-2 {
@@ -262,6 +262,14 @@ nav .close path {
 
 .item-traveling-15 {
   background-image: url(../images/picture-traveling-19.jpg);
+}
+
+.item-traveling-16 {
+  background-image: url(../images/picture-traveling-21.jpg);
+}
+
+.item-traveling-16 h4 {
+  color: rgb(134, 221, 255);
 }
 
 /* VSR 2023 */
@@ -336,6 +344,23 @@ nav .close path {
 
 .p-traveling-championship-of-Yaroslavl-2023-2 {
   text-align: center;
+}
+
+/* Winter championship of Yaroslavl 2023 */
+
+.item-traveling-winter-championship-of-Yaroslavl-2023-1 {
+  background-image: url(../images/picture-traveling-21.jpg);
+}
+
+.p-traveling-winter-championship-of-Yaroslavl-2023-1 {
+  text-align: center;
+}
+
+/* New Year Moscow 2022 */
+
+.item-traveling-new-year-Moscow-2022-1 {
+  background-image: url(../images/picture-traveling-8.jpg);
+  text-shadow: 1px 1px 10px black;
 }
 
 /* Luzhniki 2022 */
@@ -590,6 +615,12 @@ hr {
 }
 
 @media only screen and (min-width:1050px) {
+p {
+  max-width: 1000px;
+  text-align: center;
+  /* как сделать p посередине? */
+}
+
   .footer-5 {
     display: block;
   }
