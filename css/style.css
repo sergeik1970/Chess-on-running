@@ -129,6 +129,40 @@ nav .close path {
   background-position: center;
 }
 
+.item-text {
+  text-align: center;
+}
+
+.item a {
+  color: rgb(125, 179, 255);
+  text-decoration: none;
+}
+
+.item h1 {
+  font-size: 35px;
+  margin: 5px;
+}
+
+.item h2 {
+  font-size: 19px;
+  font-weight: lighter;
+  margin: 0;
+}
+
+p {
+  /* background-color: white; */
+  margin: 20px;
+}
+
+.gallery img {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
 .item-1 {
   background-image: url(../images/picture-1.jpg);
 }
@@ -146,6 +180,8 @@ nav .close path {
   text-shadow: none;
 }
 
+/* Club */
+
 .item-club-1 {
   background-image: url(../images/picture-4.jpg);
   text-shadow: none;
@@ -157,12 +193,30 @@ nav .close path {
 
 .item-club-3 {
   background-image: url(../images/picture-club-3.jpg);
-  text-shadow: 1px 1px 10px black;
+  /* text-shadow: 1px 1px 10px black; */
 }
 
 .item-club-4 {
   background-image: url(../images/picture-3.jpg);
 }
+
+/* Camping */
+
+.item-camping-1 {
+  background-image: url(../images/picture-club-3.jpg);
+}
+
+.item-camping-3 {
+  background-image: url(../images/Camping-summer-river-Aug-2023-5.jpg);
+}
+
+/* Summer river August 2023 */
+
+.item-camping-summer-river-Aug-2023 {
+  background-image: url(../images/Camping-summer-river-Aug-2023-5.jpg);
+}
+
+/* Competitions in Kostroma */
 
 .item-competitions-in-Kostroma-1 {
   background-image: url(../images/picture-3.jpg);
@@ -182,7 +236,7 @@ nav .close path {
 
 .item-competitions-in-Kostroma-5 {
   background-image: url(../images/picture-competitions-in-Kostroma-4.jpg);
-  text-shadow: 1px 1px 10px black;
+  /* text-shadow: 1px 1px 10px black; */
 }
 
 /* Traveling */
@@ -212,7 +266,7 @@ nav .close path {
 }
 
 .item-traveling-6 {
-  text-shadow: 1px 1px 10px black;
+  /* text-shadow: 1px 1px 10px black; */
   background-image: url(../images/picture-traveling-7.jpg);
 }
 
@@ -238,7 +292,7 @@ nav .close path {
 
 .item-traveling-11 {
   background-image: url(../images/picture-traveling-12.jpg);
-  text-shadow: 1px 1px 10px black;
+  /* text-shadow: 1px 1px 10px black; */
 }
 
 .item-traveling-12 {
@@ -255,7 +309,7 @@ nav .close path {
 
 .item-traveling-14 {
   background-image: url(../images/picture-traveling-17.jpg);
-  text-shadow: 1px 1px 10px black;
+  /* text-shadow: 1px 1px 10px black; */
 }
 
 .item-traveling-15 {
@@ -264,7 +318,7 @@ nav .close path {
 
 .item-traveling-16 {
   background-image: url(../images/picture-traveling-22.jpg);
-  text-shadow: 1px 1px 10px black;
+  /* text-shadow: 1px 1px 10px black; */
 }
 
 .item-traveling-16 h4 {
@@ -273,7 +327,7 @@ nav .close path {
 
 .item-traveling-17 {
   background-image: url(../images/picture-traveling-21.jpg);
-  text-shadow: 1px 1px 10px black;
+  /* text-shadow: 1px 1px 10px black; */
 }
 
 .item-traveling-17 h4 {
@@ -348,7 +402,7 @@ p {
 
 .item-traveling-winter-championship-of-Yaroslavl-2024-1 {
   background-image: url(../images/picture-traveling-21.jpg);
-  text-shadow: 1px 1px 10px black;
+  /* text-shadow: 1px 1px 10px black; */
 }
 
 .p-traveling-winter-championship-of-Yaroslavl-2024-1 {
@@ -380,7 +434,7 @@ p {
 
 .item-traveling-school-of-safety-2023-1 {
   background-image: url(../images/picture-traveling-4.jpg);
-  text-shadow: 1px 1px 10px black;
+  /* text-shadow: 1px 1px 10px black; */
 }
 
 .h4-traveling-school-of-safety-2023 {
@@ -388,11 +442,6 @@ p {
   margin-left: 30px;
   font-size: 18px;
   padding-top: 10px;
-}
-
-.gallery-traveling-school-of-safety-2023-1 img {
-  width: 33%;
-  /*  */
 }
 
 /* Slet orintirovshikov 2023 */
@@ -405,7 +454,7 @@ p {
 
 .item-traveling-Moscow-kompas-2023-1 {
   background-image: url(../images/picture-traveling-7.jpg);
-  text-shadow: 1px 1px 10px black;
+  /* text-shadow: 1px 1px 10px black; */
 }
 
 .p-traveling-Moscow-kompas-2023-2 {
@@ -426,7 +475,7 @@ p {
 
 .item-traveling-winter-championship-of-Yaroslavl-2023-1 {
   background-image: url(../images/picture-traveling-22.jpg);
-  text-shadow: 1px 1px 10px black;
+  /* text-shadow: 1px 1px 10px black; */
 }
 
 .p-traveling-winter-championship-of-Yaroslavl-2023-1 {
@@ -437,7 +486,7 @@ p {
 
 .item-traveling-new-year-Moscow-2022-1 {
   background-image: url(../images/picture-traveling-8.jpg);
-  text-shadow: 1px 1px 10px black;
+  /* text-shadow: 1px 1px 10px black; */
 }
 
 /* Luzhniki 2022 */
@@ -464,45 +513,13 @@ p {
 
 .item-traveling-Yaroslavl-Kotorosl-1 {
   background-image: url(../images/picture-traveling-17.jpg);
-  text-shadow: 1px 1px 10px black;
+  /* text-shadow: 1px 1px 10px black; */
 }
 
 /* Makushka Leta 2022 */
 
 .item-traveling-makushka-leta-2022-1 {
   background-image: url(../images/picture-traveling-10.jpg);
-}
-
-.gallery-traveling-makushka-leta-2022-2 {
-  display: none;
-}
-
-.gallery-traveling-makushka-leta-2022-3 {
-  display: none;
-}
-
-@media only screen and (min-width: 600px) {
-
-  .gallery-traveling-makushka-leta-2022-1 {
-    display: none;
-  }
-
-  .gallery-traveling-makushka-leta-2022-2 {
-    display: grid;
-  }
-
-}
-
-@media only screen and (min-width: 900px) {
-
-  .gallery-traveling-makushka-leta-2022-2 {
-    display: none;
-  }
-
-  .gallery-traveling-makushka-leta-2022-3 {
-    display: grid;
-  }
-
 }
 
 /* School of Safety 2022 */
@@ -515,7 +532,7 @@ p {
 
 .item-traveling-championship-of-Yaroslavl-2022-1 {
   background-image: url(../images/picture-traveling-12.jpg);
-  text-shadow: 1px 1px 10px black;
+  /* text-shadow: 1px 1px 10px black; */
 }
 
 .p-traveling-championship-of-Yaroslavl-2022-2 {
@@ -530,40 +547,6 @@ p {
 
 .p-traveling-Belkino-2022-1 {
   text-align: center;
-}
-
-.item-text {
-  text-align: center;
-}
-
-.item a {
-  color: rgb(125, 179, 255);
-  text-decoration: none;
-}
-
-.item h1 {
-  font-size: 35px;
-  margin: 5px;
-}
-
-.item h2 {
-  font-size: 19px;
-  font-weight: lighter;
-  margin: 0;
-}
-
-p {
-  /* background-color: white; */
-  margin: 20px;
-}
-
-.gallery img {
-  width: 90%;
-  display: flex;
-  margin: 0 auto;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
 }
 
 /* Footer */
