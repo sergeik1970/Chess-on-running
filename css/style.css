@@ -196,6 +196,10 @@ p {
   /* text-shadow: 1px 1px 10px black; */
 }
 
+.item-club-3 a {
+  color: rgb(161, 207, 255);
+}
+
 .item-club-4 {
   background-image: url(../images/picture-3.jpg);
 }
@@ -206,14 +210,59 @@ p {
   background-image: url(../images/picture-club-3.jpg);
 }
 
+.item-camping-2 {
+  background-image: url(../images/picture-camping-2.jpg);
+}
+
+.item-camping-2 a {
+  color: rgb(0, 118, 220);
+}
+
 .item-camping-3 {
   background-image: url(../images/Camping-summer-river-Aug-2023-5.jpg);
+}
+
+.item-camping-4 {
+  background-image: url(../images/picture-camping-6.jpg);
+}
+
+.item-camping-5 {
+  background-image: url(../images/Camping-winter-Dec-2022-1.jpg);
+}
+
+.item-camping-6 {
+  background-image: url(../images/picture-camping-4.jpeg);
+}
+
+
+/* Winter Jan 2024 */
+
+.item-camping-winter-Jan-2024 {
+  background-image: url(../images/picture-camping-2.jpg);
 }
 
 /* Summer river August 2023 */
 
 .item-camping-summer-river-Aug-2023 {
   background-image: url(../images/Camping-summer-river-Aug-2023-5.jpg);
+}
+
+/* Winter Jan 2023 */
+
+.item-camping-winter-Jan-2023 {
+  background-image: url(../images/picture-camping-6.jpg);
+}
+
+/* Winter Dec 2022 */
+
+.item-camping-winter-Dec-2022 {
+  background-image: url(../images/Camping-winter-Dec-2022-1.jpg);
+}
+
+/* Summer July 2022 */
+
+.item-camping-summer-July-2022 {
+  background-image: url(../images/picture-camping-4.jpeg);
 }
 
 /* Competitions in Kostroma */
