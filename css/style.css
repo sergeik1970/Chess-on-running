@@ -188,7 +188,11 @@ p {
 }
 
 .item-club-2 {
-  background-image: url(../images/picture-club-2.jpg);
+  background-image: url(../images/picture-meeting-1.jpg);
+}
+
+.item-club-2 h4 {
+  color: rgb(45, 147, 255);
 }
 
 .item-club-3 {
@@ -201,7 +205,13 @@ p {
 }
 
 .item-club-4 {
-  background-image: url(../images/picture-3.jpg);
+  background-image: url(../images/competitions-in-Kostroma-6.jpg);
+}
+
+/* Orienteering */
+
+.item-meeting-1 {
+  background-image: url(../images/picture-meeting-1.jpg);
 }
 
 /* Camping */
@@ -268,7 +278,7 @@ p {
 /* Competitions in Kostroma */
 
 .item-competitions-in-Kostroma-1 {
-  background-image: url(../images/picture-3.jpg);
+  background-image: url(../images/competitions-in-Kostroma-6.jpg);
 }
 
 .item-competitions-in-Kostroma-2 {
@@ -393,6 +403,12 @@ p {
   text-align: center;
 }
 
+.h4-traveling {
+  margin: 10px 30px;
+  font-weight: bolder;
+  padding-top: 10px;
+}
+
 /* Element */
 
 .element {
@@ -402,7 +418,6 @@ p {
   margin-right: 10px;
   padding-bottom: 10px;
   max-width: 1000px;
-  margin: auto;
 }
 
 
@@ -765,6 +780,10 @@ hr {
 
   nav {
     width: 40%;
+  }
+
+  .element {
+    margin: auto;
   }
 }
 
