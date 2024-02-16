@@ -188,11 +188,7 @@ p {
 }
 
 .item-club-2 {
-  background-image: url(../images/picture-meeting-1.jpg);
-}
-
-.item-club-2 h4 {
-  color: rgb(45, 147, 255);
+  background-image: url(../images/picture-club-2.jpg);
 }
 
 .item-club-3 {
@@ -210,7 +206,7 @@ p {
 
 /* Orienteering */
 
-.item-meeting-1 {
+.item-orienteering-1 {
   background-image: url(../images/picture-club-2.jpg);
 }
 
