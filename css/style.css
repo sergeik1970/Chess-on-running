@@ -668,7 +668,7 @@ hr {
 }
 
 .footer-2 {
-  display: block;
+  display: none;
 }
 
 .footer-3 {
@@ -715,6 +715,10 @@ hr {
   }
 
   .nav-4 {
+    display: block;
+  }
+
+  .footer-2 {
     display: block;
   }
 }
@@ -804,9 +808,6 @@ hr {
 }
 
 @media only screen and (min-width:1435px) {
-  .footer-6 {
-    display: block;
-  }
 
   .nav-9 {
     display: block;
