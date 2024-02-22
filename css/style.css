@@ -609,6 +609,18 @@ p {
   text-align: center;
 }
 
+/* Contacts */
+
+.contacts-h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.contacts-h4 {
+  text-align: center;
+  margin-top: -10px;
+}
+
 /* Footer */
 
 footer {
