@@ -389,6 +389,10 @@ p {
   color: rgb(134, 221, 255);
 }
 
+.item-traveling-18 {
+  background-image: url(../images/picture-traveling-23.jpg);
+}
+
 .p-traveling {
   margin: 20px auto;
   padding: 20px;
