@@ -393,6 +393,14 @@ p {
   background-image: url(../images/picture-traveling-23.jpg);
 }
 
+.item-traveling-19 {
+  background-image: url(../images/picture-traveling-25.jpg);
+}
+
+.item-traveling-20 {
+  background-image: url(../images/picture-traveling-26.jpg);
+}
+
 .p-traveling {
   margin: 20px auto;
   padding: 20px;
@@ -460,6 +468,12 @@ p {
     display: grid;
   }
   
+}
+
+/* Championship of Yaroslavl 2024 */
+
+.item-traveling-championship-of-Yaroslavl-2024-1 {
+  background-image: url(../images/picture-traveling-25.jpg);
 }
 
 /* Gelendjik 2024 */
