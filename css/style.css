@@ -168,7 +168,12 @@ p {
 }
 
 .item-2 {
-  background-image: url(../images/picture-2.jpg);
+  background-image: url(../images/picture-2-6.jpg);
+  /* background-image: url(../images/picture-traveling-1.jpg); */
+}
+
+.item-2 {
+  text-shadow: 1px 1px 10px black;
 }
 
 .item-3 {
@@ -298,6 +303,7 @@ p {
 
 .item-traveling-1 {
   background-image: url(../images/picture-2.jpg);
+  /* background-image: url(../images/picture-traveling-1.jpg); */
 }
 
 .item-traveling-2 {
@@ -401,6 +407,14 @@ p {
   background-image: url(../images/picture-traveling-26.jpg);
 }
 
+.item-traveling-21 {
+  background-image: url(../images/picture-traveling-29.jpg);
+}
+
+.item-traveling-21 h2 {
+  text-shadow: 2px 3px 10px black;
+}
+
 .p-traveling {
   margin: 20px auto;
   padding: 20px;
@@ -469,6 +483,9 @@ p {
   }
   
 }
+
+/* Makushka Leta 2023 */
+
 
 /* Championship of Yaroslavl 2024 */
 
