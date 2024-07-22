@@ -245,6 +245,10 @@ p {
   background-image: url(../images/picture-camping-4.jpeg);
 }
 
+.item-camping-7 {
+  background-image: url(../images/picture-traveling-26.jpg);
+}
+
 
 /* Winter Jan 2024 */
 
@@ -404,7 +408,8 @@ p {
 }
 
 .item-traveling-20 {
-  background-image: url(../images/picture-traveling-26.jpg);
+  background-image: url(../images/picture-traveling-30.jpg);
+  text-shadow: 1px 1px 4px black;
 }
 
 .item-traveling-21 {
@@ -484,7 +489,20 @@ p {
   
 }
 
-/* Makushka Leta 2023 */
+/* Makushka Leta 2024 */
+
+/* SportFest Sofcombank 2024 */
+
+.item-traveling-SportFest-Sofcombank-2024 {
+  background-image: url(../images/picture-traveling-30.jpg);
+  text-shadow: 1px 1px 4px black;
+}
+
+/* Camping summer June 2024 */
+
+.item-camping-summer-June-2024 {
+  background-image: url(../images/picture-traveling-26.jpg);
+}
 
 
 /* Championship of Yaroslavl 2024 */
@@ -785,15 +803,7 @@ hr {
 
 @media only screen and (min-width: 850px) {
 
-  .footer-2 {
-    display: none;
-  }
-
   .footer-3 {
-    display: block;
-  }
-
-  .footer-4 {
     display: block;
   }
 
@@ -827,7 +837,7 @@ hr {
 
 @media only screen and (min-width:1050px) {
 
-  .footer-5 {
+  .footer-4 {
     display: block;
   }
 
