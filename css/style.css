@@ -249,6 +249,10 @@ p {
   background-image: url(../images/picture-traveling-26.jpg);
 }
 
+.item-camping-8 {
+  background-image: url(../images/picture-traveling-31.jpg);
+}
+
 
 /* Winter Jan 2024 */
 
@@ -487,6 +491,12 @@ p {
     display: grid;
   }
   
+}
+
+/* Camping summer river 2024 */
+
+.item-camping-summer-river-Aug-2024 {
+  background-image: url(../images/picture-traveling-31.jpg);
 }
 
 /* Makushka Leta 2024 */
