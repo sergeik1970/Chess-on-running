@@ -424,6 +424,10 @@ p {
   text-shadow: 2px 3px 10px black;
 }
 
+.item-traveling-22 {
+  background-image: url(../images/picture-traveling-32.jpg);
+}
+
 .p-traveling {
   margin: 20px auto;
   padding: 20px;
@@ -491,6 +495,12 @@ p {
     display: grid;
   }
   
+}
+
+/* Championship of Yaroslavl Sept 2024 */
+
+.item-traveling-championship-of-Yaroslavl-Sept-2024 {
+  background-image: url(../images/picture-traveling-32.jpg);
 }
 
 /* Camping summer river 2024 */
