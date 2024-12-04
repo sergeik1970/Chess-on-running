@@ -150,7 +150,6 @@ nav .close path {
 }
 
 p {
-  /* background-color: white; */
   margin: 20px;
 }
 
@@ -169,11 +168,6 @@ p {
 
 .item-2 {
   background-image: url(../images/picture-2-7.jpg);
-  /* background-image: url(../images/picture-traveling-1.jpg); */
-}
-
-.item-2 {
-  text-shadow: 1px 1px 10px black;
 }
 
 .item-3 {
@@ -311,14 +305,12 @@ p {
 
 .item-competitions-in-Kostroma-5 {
   background-image: url(../images/picture-competitions-in-Kostroma-4.jpg);
-  /* text-shadow: 1px 1px 10px black; */
 }
 
 /* Traveling */
 
 .item-traveling-1 {
   background-image: url(../images/picture-2.jpg);
-  /* background-image: url(../images/picture-traveling-1.jpg); */
 }
 
 .item-traveling-2 {
@@ -342,7 +334,6 @@ p {
 }
 
 .item-traveling-6 {
-  /* text-shadow: 1px 1px 10px black; */
   background-image: url(../images/picture-traveling-7.jpg);
 }
 
@@ -368,7 +359,6 @@ p {
 
 .item-traveling-11 {
   background-image: url(../images/picture-traveling-12.jpg);
-  /* text-shadow: 1px 1px 10px black; */
 }
 
 .item-traveling-12 {
@@ -385,7 +375,6 @@ p {
 
 .item-traveling-14 {
   background-image: url(../images/picture-traveling-17.jpg);
-  /* text-shadow: 1px 1px 10px black; */
 }
 
 .item-traveling-15 {
@@ -394,7 +383,6 @@ p {
 
 .item-traveling-16 {
   background-image: url(../images/picture-traveling-22.jpg);
-  /* text-shadow: 1px 1px 10px black; */
 }
 
 .item-traveling-16 h4 {
@@ -403,7 +391,6 @@ p {
 
 .item-traveling-17 {
   background-image: url(../images/picture-traveling-21.jpg);
-  /* text-shadow: 1px 1px 10px black; */
 }
 
 .item-traveling-17 h4 {
@@ -420,15 +407,10 @@ p {
 
 .item-traveling-20 {
   background-image: url(../images/picture-traveling-30.jpg);
-  text-shadow: 1px 1px 4px black;
 }
 
 .item-traveling-21 {
   background-image: url(../images/picture-traveling-29.jpg);
-}
-
-.item-traveling-21 h2 {
-  text-shadow: 2px 3px 10px black;
 }
 
 .item-traveling-22 {
@@ -440,6 +422,10 @@ p {
 }
 
 .item-traveling-24 {
+  background-image: url(../images/picture-traveling-20.jpg);
+}
+
+.item-traveling-25 {
   background-image: url(../images/picture-traveling-34.jpg);
 }
 
@@ -510,6 +496,10 @@ p {
     display: grid;
   }
   
+}
+
+.item-traveling-Pokrovskaya-snezhinka-2024-1 {
+  background-image: url(../images/picture-traveling-20.jpg);
 }
 
 /* VSR 2024 */
