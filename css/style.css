@@ -254,6 +254,16 @@ p {
   background-image: url(../images/picture-traveling-31.jpg);
 }
 
+.item-camping-9 {
+  background-image: url(../images/picture-camping-8.jpg);
+}
+
+/* Winter Jan 2025 */
+
+.item-camping-winter-Jan-2025 {
+  background-image: url(../images/picture-camping-8.jpg);
+}
+
 
 /* Winter Jan 2024 */
 
@@ -497,6 +507,12 @@ p {
   }
   
 }
+
+.item-traveling-new-year-Moscow-1 {
+  background-image: url(../images/picture-traveling-34.jpg);
+}
+
+/* Pokrovskaya snejinka */
 
 .item-traveling-Pokrovskaya-snezhinka-2024-1 {
   background-image: url(../images/picture-traveling-20.jpg);
