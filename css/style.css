@@ -179,6 +179,10 @@ p {
   text-shadow: none;
 }
 
+.item-5 {
+  background-image: url(../images/picture-5.jpg);
+}
+
 /* News */
 
 .news-h1 {
@@ -437,6 +441,10 @@ p {
 
 .item-traveling-25 {
   background-image: url(../images/picture-traveling-34.jpg);
+}
+
+.item-traveling-26 {
+  background-image: url(../images/picture-traveling-35.jpg);
 }
 
 .p-traveling {
