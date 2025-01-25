@@ -167,7 +167,8 @@ p {
 }
 
 .item-2 {
-  background-image: url(../images/picture-2-7.jpg);
+  /* background-image: url(../images/picture-2-7.jpg); */
+  background-image: url(../images/picture-2-1.jpg);
 }
 
 .item-3 {
@@ -324,7 +325,8 @@ p {
 /* Traveling */
 
 .item-traveling-1 {
-  background-image: url(../images/picture-2.jpg);
+  /* background-image: url(../images/picture-2.jpg); */
+  background-image: url(../images/picture-traveling-1.jpg);
 }
 
 .item-traveling-2 {
