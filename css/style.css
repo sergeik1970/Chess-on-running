@@ -184,6 +184,31 @@ p {
   background-image: url(../images/picture-5.jpg);
 }
 
+/* Federation */
+
+.item-federation {
+  background-image: url(../images/picture-5.jpg);
+}
+
+.federation {
+  display: block;
+  text-align: center;
+}
+
+.enter, .docs {
+  margin: auto;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.enter p {
+  max-width: 100%;
+}
+
+.docs p {
+  max-width: 100%;
+}
+
 /* News */
 
 .news-h1 {
