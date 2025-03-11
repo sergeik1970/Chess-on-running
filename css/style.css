@@ -184,6 +184,10 @@ p {
   background-image: url(../images/picture-5.jpg);
 }
 
+.item-5 h4 {
+  color: rgb(0, 115, 255)
+}
+
 .item-6 {
   background-image: url(../images/picture-6.jpg);
 }
