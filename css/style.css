@@ -482,6 +482,10 @@ p {
   background-image: url(../images/picture-traveling-35.jpg);
 }
 
+.item-traveling-27 {
+  background-image: url(../images/picture-traveling-36.jpg);
+}
+
 .p-traveling {
   margin: 20px auto;
   padding: 20px;
@@ -549,6 +553,12 @@ p {
     display: grid;
   }
   
+}
+
+/* Championship of Yaroslavl April 2025 */
+
+.item-traveling-championship-of-Yaroslavl-2025-1 {
+  background-image: url(../images/picture-traveling-36.jpg);
 }
 
 /* Black Sea 2025 */
