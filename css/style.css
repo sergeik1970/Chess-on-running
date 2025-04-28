@@ -486,6 +486,10 @@ p {
   background-image: url(../images/picture-traveling-36.jpg);
 }
 
+.item-traveling-28 {
+  background-image: url(../images/picture-traveling-37.jpg);
+}
+
 .p-traveling {
   margin: 20px auto;
   padding: 20px;
@@ -553,6 +557,10 @@ p {
     display: grid;
   }
   
+}
+
+.item-traveling-Moscow-kompas-2025-1 {
+  background-image: url(../images/picture-traveling-37.jpg);
 }
 
 /* Championship of Yaroslavl April 2025 */
