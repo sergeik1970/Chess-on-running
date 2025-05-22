@@ -490,6 +490,10 @@ p {
   background-image: url(../images/picture-traveling-37.jpg);
 }
 
+.item-traveling-29 {
+  background-image: url(../images/picture-traveling-38.jpg);
+}
+
 .p-traveling {
   margin: 20px auto;
   padding: 20px;
@@ -558,6 +562,14 @@ p {
   }
   
 }
+
+/* Grand Prix 2025 */
+
+.item-traveling-GP-2025-1 {
+  background-image: url(../images/picture-traveling-38.jpg);
+}
+
+/* Moscow Kompas 2025 */
 
 .item-traveling-Moscow-kompas-2025-1 {
   background-image: url(../images/picture-traveling-37.jpg);
