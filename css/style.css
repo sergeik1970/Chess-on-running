@@ -494,6 +494,10 @@ p {
   background-image: url(../images/picture-traveling-38.jpg);
 }
 
+.item-traveling-30 {
+  background-image: url(../images/picture-traveling-39.jpg);
+}
+
 .p-traveling {
   margin: 20px auto;
   padding: 20px;
@@ -561,6 +565,12 @@ p {
     display: grid;
   }
   
+}
+
+/* Slet orientirovshikov 2025 */
+
+.item-traveling-slet-orient-2025-1 {
+  background-image: url(../images/picture-traveling-39.jpg);
 }
 
 /* Grand Prix 2025 */
